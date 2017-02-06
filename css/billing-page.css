@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.thin-text {
+  font-weight: normal; }
+
+.header-text {
+  font-weight: bold; }
+
+.main-content .sidebar {
+  background: #eceff1;
+  height: 700px; }
+  .main-content .sidebar .side-container {
+    margin-left: 50%;
+    margin-top: 20%; }
+    .main-content .sidebar .side-container .user .circle-logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 35px;
+      background: #48c5df; }
+      .main-content .sidebar .side-container .user .circle-logo .fa-picture-o {
+        color: #3fabc2;
+        font-size: 25px;
+        padding: 24px 7px; }
+    .main-content .sidebar .side-container .user .user-name {
+      color: #96999b;
+      padding-top: 27px;
+      font-size: 12px; }
+    .main-content .sidebar .side-container .side-nav li.text-type-one {
+      color: #474b4c !important;
+      font-size: 17px;
+      margin-top: 20px; }
+    .main-content .sidebar .side-container .side-nav li.text-type-two {
+      color: #474b4c !important;
+      font-size: 15px;
+      margin-top: 20px; }
+    .main-content .sidebar .side-container .side-nav li.text-type-three a {
+      color: #adafb1 !important;
+      font-size: 13px;
+      margin: 7px 0; }
+      .main-content .sidebar .side-container .side-nav li.text-type-three a.active {
+        color: #4bbcd6 !important; }
+.main-content .content-block p, .main-content .content-block span, .main-content .content-block td, .main-content .content-block th {
+  color: #7f8182; }
+.main-content .content-block .content-header {
+  font-size: 17px; }
+.main-content .content-block .form-table-block {
+  margin-top: 30px; }
+  .main-content .content-block .form-table-block .pay-pal-block p, .main-content .content-block .form-table-block .invoice-block p {
+    padding: 5px 0;
+    border-top: 1px solid #eceff1;
+    border-bottom: 1px solid #eceff1; }
+  .main-content .content-block .form-table-block .pay-pal-block form input, .main-content .content-block .form-table-block .invoice-block form input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 15px;
+    background: #eceff1;
+    border: none; }
+  .main-content .content-block .form-table-block .pay-pal-block form button.form-submit, .main-content .content-block .form-table-block .invoice-block form button.form-submit {
+    width: 50%;
+    font-size: 15px;
+    font-weight: lighter;
+    float: right;
+    color: white;
+    background: linear-gradient(to bottom, #2cc4dc, #26b4d2, #24acce, #22a4c9);
+    border-radius: 0;
+    border: none; }
+  .main-content .content-block .form-table-block .pay-pal-block form hr, .main-content .content-block .form-table-block .invoice-block form hr {
+    border-top: 1px solid #e1e1e1;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px; }
+  .main-content .content-block .form-table-block .statments {
+    margin-top: 30px; }
+    .main-content .content-block .form-table-block .statments .stat-header {
+      border-bottom: 1px solid #e1e1e1;
+      padding: 10px; }
+      .main-content .content-block .form-table-block .statments .stat-header .header-text {
+        font-size: 17px; }
+      .main-content .content-block .form-table-block .statments .stat-header .thin-text {
+        float: right; }
+    .main-content .content-block .form-table-block .statments .table td.centered, .main-content .content-block .form-table-block .statments .table th.centered {
+      text-align: center; }
+    .main-content .content-block .form-table-block .statments .table th {
+      font-weight: normal; }
+    .main-content .content-block .form-table-block .statments .table .table-striped > tbody > tr:nth-of-type(odd) {
+      background: #eceff1; }
+    .main-content .content-block .form-table-block .statments .table .fa-check {
+      color: #8bdf43; }
+    .main-content .content-block .form-table-block .statments .table .fa-ban {
+      color: #d64c45; }
+
+@media (min-width: 1260px) {
+  .main-content {
+    height: 700px;
+    padding-top: 60px; } }
+@media (max-width: 991px) {
+  .main-content .sidebar {
+    display: none; }
+
+  .content-block {
+    margin-top: 3%;
+    padding: 0 5%; } }
+@media (min-width: 992px) {
+  .content-block {
+    margin-left: 50px;
+    margin-top: 6%; } }
+
+/*# sourceMappingURL=billing-page.css.map */

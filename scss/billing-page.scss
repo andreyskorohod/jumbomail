@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thin-text {
+    font-weight: normal;
+}
+.header-text {
+    font-weight: bold;
+}
+
+.main-content {
+    .sidebar {
+        background: #eceff1;
+        height: 700px;
+
+        .side-container{
+            margin-left: 50%;
+            margin-top: 20%;
+
+            .user {
+                .circle-logo{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 35px;
+                    background: #48c5df;
+
+                    .fa-picture-o {
+                        color: #3fabc2;
+                        font-size: 25px;
+                        padding: 24px 7px;
+                    }
+                }
+                .user-name {
+                    color: #96999b;
+                    padding-top: 27px;
+                    font-size: 12px;
+                }
+            }
+
+            .side-nav {
+                li.text-type-one {
+                    color: #474b4c !important;
+                    font-size: 17px;
+                    margin-top: 20px;
+                }
+
+                li.text-type-two {
+                    color: #474b4c !important;
+                    font-size: 15px;
+                    margin-top: 20px;
+                }
+
+                li.text-type-three a{
+                    color: #adafb1 !important;
+                    font-size: 13px;
+                    margin: 7px 0;
+
+                    &.active {
+                        color: #4bbcd6 !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-block {
+        p, span, td, th {
+            color: #7f8182;
+        }
+
+        .content-header {
+            font-size: 17px;
+        }
+
+        .form-table-block {
+            margin-top: 30px;
+
+            .pay-pal-block, .invoice-block {
+                p {
+                    padding: 5px 0;
+                    border-top: 1px solid #eceff1;
+                    border-bottom: 1px solid #eceff1;
+                }
+
+                form {
+                    input {
+                        width: 100%;
+                        margin-top: 5px;
+                        padding: 5px 15px;
+                        background: #eceff1;
+                        border: none;
+                    }
+
+                    button.form-submit {
+                        width: 50%;
+                        font-size: 15px;
+                        font-weight: lighter;
+                        float: right;
+                        color: white;
+                        background: linear-gradient(to bottom, #2cc4dc, #26b4d2, #24acce, #22a4c9);
+                        border-radius: 0;
+                        border: none;
+                    }
+
+                    hr {
+                        border-top: 1px solid #e1e1e1;
+                        width: 100%;
+                        margin-top: 15px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .statments {
+                margin-top: 30px;
+
+                .stat-header {
+                    border-bottom: 1px solid #e1e1e1;
+                    padding: 10px;
+
+                    .header-text {
+                        font-size: 17px;
+                    }
+                    .thin-text {
+                        float: right;
+                    }
+                }
+                .table {
+                    td.centered, th.centered {
+                        text-align: center;
+                    }
+                    th {
+                        font-weight: normal;
+                    }
+                    .table-striped > tbody > tr:nth-of-type(odd) {
+                        background: #eceff1;
+                    }
+                    .fa-check {
+                        color: #8bdf43;
+                    }
+                    .fa-ban {
+                        color: #d64c45;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 1260px) {
+    .main-content {
+        height: 700px;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-content .sidebar {
+        display: none
+    }
+    .content-block {
+        margin-top: 3%;
+        padding: 0 5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-block {
+        margin-left: 50px;
+        margin-top: 6%;
+    }
+}
